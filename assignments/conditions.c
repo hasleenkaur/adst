@@ -21,7 +21,8 @@ int main() {
 
 
    int age = 15;
-   if (age >= 16 && age < 18) {
+   if (age >= 16 && age
+     < 18) {
     printf("You can get a learner's license\n");
    } else if (age>= 18) {
     printf("You can get a class 5 license\n");
