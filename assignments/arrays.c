@@ -21,11 +21,19 @@ int main() {
     int sum = 0;
     float avg;
 
+    int lowestAge = ages [0];
+    int highestAge = ages [0];
+
     int length = sizeof (ages) / sizeof(ages[0]);
 
     for (int i = 0; i< length; i++) {
-//      sum = sum + ages[i];
-     sum+= ages[i];
+//  sum = sum + ages[i];
+        sum+= ages[i];
+        if (ages[i] < lowestAge) {
+            lowestAge = ages[i];
+        }
+        if (ages[i] > highestAge) {
+            highestAge = ages[i];
     }
     avg = sum / length;
 
