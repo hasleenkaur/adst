@@ -11,9 +11,10 @@ int main() {
 
     int radius = 5;
     const float pi = 3.14;
-    float perimeter = 2* pi *radius;
-    float area = pi *radius*radius;
-  
+
+    float area = pi * radius * radius;
+    float perimeter = 2 * pi * radius;
+
     printf("The perimeter of the circle = %.3f inches\n", perimeter);
     printf("The areas of the circle     = %.3f inches\n", area);
 

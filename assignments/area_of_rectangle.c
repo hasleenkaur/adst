@@ -17,7 +17,5 @@ int main() {
   printf("Perimeter of the rectangle = %d inches\n", perimeter);
   printf("Area of the rectangle= %d square inches\n", area);
 
-
-
   return 0;
 }
